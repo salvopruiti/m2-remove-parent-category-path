@@ -1,0 +1,21 @@
+{
+  "name": "scalia-group/remove-parent-category",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "salvopruiti/scalia-integration-m2": "*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ScaliaGroup\\RemoveParentCategory\\": ""
+    }
+  }
+}
